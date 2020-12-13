@@ -1,0 +1,94 @@
+/* ------------------CSS SYNTAX------------------- */
+/* selector{
+    property: value;
+} */
+/* ----------------------------------------------- */
+
+/* NOTE: cascading style sheets means that for an element like <p></p>,
+the most recent style applied to it will be considered in the end once
+the entire style sheet has been processed */
+
+body{
+    background-image: url('/home/suhas/web-dev-mastery/static/juniperphoton-1mElhkEG-YE-unsplash.jpg');
+    
+    /* 'cover' helps fit the image properly to the page */
+    background-size: cover;
+}
+
+/* applying to multiple elements with a single selector */
+h2, p{
+    color: rgb(39, 39, 240);
+    text-align: center;
+    /* the "!important" keyword overrides the future styles applied to an element by the other selectors */
+    border: 5px dashed purple !important;
+    border: 5px solid rgba(7, 93, 99, 0.5);
+    cursor: pointer;
+
+}
+
+/* p{
+    color: pink;
+}
+
+p{
+    color: rgb(4, 67, 71);
+} */
+
+li{
+list-style: none;
+display: inline-block;
+}
+
+a{
+    cursor: pointer;
+}
+
+.webtext:last-child{
+    border: 5px dashed green;
+}
+.active: :first-child{
+ color: blue;   
+}
+
+#div1{
+    background: rgba(0, 0, 100, 0.2);
+}
+
+#div2: :hover{
+    background: rgba(100, 0, 0, 0.2);
+}
+
+
+/* the '*' selector applies to all elements */
+
+*{
+    text-align: center;
+}
+
+p{
+    text-decoration: line-through;
+    text-decoration: underline;
+    color: darkgreen;
+    text-transform: capitalize;
+    line-height: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 180%;
+
+    /* if the computer does not have the 'time new roman' font, print the
+    text in georgia */
+    font-family: "Times New Roman", Georgia;
+    font-family: 'Poiret One', cursive;
+}
+
+img{
+    float: left;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(187, 255, 0);
+    font-weight: bolder;
+}

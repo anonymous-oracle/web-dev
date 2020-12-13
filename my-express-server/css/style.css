@@ -1,0 +1,10 @@
+.container{
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+html{
+    background-color: black;
+    color: white;
+}

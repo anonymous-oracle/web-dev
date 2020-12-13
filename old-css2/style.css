@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    /* display: flex; enables horizontal image scrolling */
+    display: flex;
+    /* now comes the dynamic sizing part...the "flex-wrap" which resizes images accordingly */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 250ms;
+}
+
+img:hover{
+    transform: scale(1.1);
+    
+}
+/* using flexbox which resizes content within a section dynamically */
+
+.flexer{
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    border-top: 2px solid pink;
+    border-left: 2px solid pink;
+    box-shadow: 4px 4px 4px #888888;
+    /* border-top: 2px solid pink; */
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}

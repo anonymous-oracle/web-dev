@@ -1,0 +1,28 @@
+h2{
+    color: blue;
+}
+
+
+/* .boxmodel{
+    border: 5px solid red ;
+    display: inline-block;
+    padding:  10px 20px 10px 20px;
+    margin: 10px 20px 10px 20px;
+    width: 33px;
+    height: 55px;
+} */
+
+p{
+    font-size: 15px;
+
+}
+
+span{
+    /* 2em font-size specifies that the font-size is twice that of the containing element; in this case
+    the containing element is the <p> tag with a font-size of 20px */
+
+    /* 2rem is size relative to the document and irrespective of the font of the containing element,
+    the font size will remain the same in relation to that of the html document */
+    font-size: 1.5em;
+    font-weight: 900;
+}

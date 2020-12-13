@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+<body>
+    <form action="index.html">
+        name: <input type="text" name="name"><p></p>
+        surname: <input type="text" name="surname">
+        <!-- required attribute below ensures that user enters his/her email with compulsion -->
+        email: <input type="email" required name="email"><p></p>
+        <!-- min attribute for the password input type specifies the minimum characters a password needs -->
+        password: <input type="password" min="3" name="password"><p></p>
+        birthdate: <input type="date" name="date">
+
+        <!-- name attribute ties the radio buttons together so that they can be deselected if another radio button is clicked -->
+        gender: <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <p></p>
+        have pets?...cool!! which ones? <br><input type="checkbox" name="cat">cats
+        <input type="checkbox" name="dog">dogs
+        <p></p>
+        cars: <br>
+        <!-- multiple can help select multiple options -->
+        <!-- <select name="" id="" multiple> -->
+
+        <select name="cars" id="">
+        
+        <option value="volvo" name="volvo">volvo</option>
+        <option value="audi" name="audi">audi</option>
+        <option value="bmw" name="bmw">bmw</option>
+        </select>
+        <p></p>
+        <input type="submit" value="register">
+        <!-- reset the form if a mistake was made -->
+        <input type="reset" value="click to reset">
+        <!-- for elements like drop-down menus, we use the select tag -->
+
+        <!-- after refreshing the page and clicking "register", the url changed with an addition of the following url text in the link:
+        "?
+        name=kfeomv
+        &surname=lsemvnjef+v
+        &email=jciehv%40fjnv
+        &password=pascdnjc+vf
+        &date=2020-11-04
+        &gender=on
+        &cat=on"
+
+        these are called query strings and are one way to send our information to the backend; 
+    the form tag was by default using an attribute named "method" whose value by default is 'GET'; if we use 'POST', then these
+    query parameters wont appear and no one could see the information
+            the query names are the same values declared for the "name" attribute in the various input links
+        -->
+    </form>
+</body>
+</html>

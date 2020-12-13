@@ -1,0 +1,22 @@
+html{
+    background-color: rgb(4, 63, 63);
+    font-family: 'Lobster';
+    color: #4ECCA3;
+}
+
+.container{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: auto;
+    width: 60%;
+}
+
+.image{
+    display: inline-block;
+    padding: 0 5% 8% 5%;    
+}
+
+img{
+height: 200px;
+width: 200px;
+}

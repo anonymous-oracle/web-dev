@@ -1,0 +1,192 @@
+
+
+/* headings */
+.big-heading{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat';
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+
+/* containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+/* sections */
+.colored-section{
+background-color: #ff4c68;
+color: white;
+}
+
+.white-section{
+background-color: white;
+
+}
+
+/* navigation bar */
+.navbar{
+    padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* title section */
+
+/* apply styling by selecting #title section and add styling to all 'container-fluid classes' inside */
+#title .container-fluid{
+    text-align: left;
+    padding: 2% 10% 7%;
+}
+
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.download-button{
+    font-weight: 600;
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+#title-image{
+    width: 40%;
+    padding: 3% 0 0 0;
+    transform: rotate(25deg);
+    position: absolute;
+    width: 60%;
+    left: 30%;
+}
+
+/* features section */
+#features{
+    z-index: 1;
+    position: relative;
+    
+}
+
+.featuresh3{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.icon2{
+    transform: scale(3);
+    color: #ef8172;
+    margin: 2rem;
+}
+
+.icon2:hover{
+    color: #ff4c68;
+}
+
+.featuresp{
+    color: #8f8f8f;
+    font-weight: 600;
+}
+
+.featuresdiv3{
+padding: 3%;
+}
+
+/* testimonial section */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+
+.testimonial-text{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.5;
+    
+}
+
+.testimonial-image{
+    width: 10%;
+    /* makes the image circular */
+    border-radius: 100%;
+    margin: 3%;
+}
+
+/* press section */
+#press{
+    background-color: #ef8172;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px;
+}
+
+
+/* pricing section */
+
+#pricing{
+    padding: 10%;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.price.text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* raw CSS media queries */
+@media (max-width: 1240px){
+    #title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title .container-fluid{
+        text-align: center;
+    }
+}
+
+
+.cta-h3{
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer */
+
+.footer-p{
+color: #8f8f8f;
+}
+
+.sm-icon{
+    margin: 20px 10px;
+}
+
