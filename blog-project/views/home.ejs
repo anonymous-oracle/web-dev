@@ -4,7 +4,7 @@
 <br>
 <% for(let i=0; i < allPosts.length; i++){ %>
     <h3><%= allPosts[i].postTitle %></h3>
-    <p><%= allPosts[i].postBody %></p>
+    <p><%= allPosts[i].postBody.substring(0, 50) %>...<a href=<%= '/posts/'+allPosts[i].postTitle %>>read more</a></p>
 <% } %>
 
 
