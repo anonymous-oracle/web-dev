@@ -1,10 +1,8 @@
 {
 	"folders": [
 		{
+			"name": "web-dev-mastery",
 			"path": "."
-		},
-		{
-			"path": "nodejs"
 		}
 	],
 	"settings": {}
