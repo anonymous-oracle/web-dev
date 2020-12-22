@@ -12,10 +12,14 @@
     </div>
     <div class="box">
             <% for (let index = 0; index < newListItems.length; index++) { %>
-                <div class="item">
-                    <input type="checkbox" name="" id="">
-                    <p><%= newListItems[index] %></p>
-                </div>
+                <form action="/delete" method="post">
+                    <div class="item">
+                        <input type="checkbox" name="checkBox" value="<%=newListItems[index]._id%>" onchange="this.form.submit()">
+                        <p><%= newListItems[index].name %></p>
+                    </div>
+                    <!-- type="hidden" is used to send data without the user's knowledge so that we can handle functionalities -->
+                    <input type="hidden" name="listName" value=<%= listTitle %>></input>
+                </form>
             <% } %>
             <form action="/" method="post">
                 <input type="text" name="newItem" id="" placeholder="New Item">

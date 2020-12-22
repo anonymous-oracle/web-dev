@@ -3,8 +3,8 @@
 <h1>Home</h1>
 <br>
 <% for(let i=0; i < allPosts.length; i++){ %>
-    <h3><%= allPosts[i].postTitle %></h3>
-    <p><%= allPosts[i].postBody.substring(0, 50) %>...<a href=<%= '/posts/'+allPosts[i].postTitle %>>read more</a></p>
+    <h3><%= allPosts[i].title %></h3>
+    <p><%= allPosts[i].body.substring(0, 50) %>...<a href=<%= '/posts/'+allPosts[i]._id %>>read more</a></p>
 <% } %>
 
 
