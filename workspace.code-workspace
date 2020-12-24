@@ -3,6 +3,9 @@
 		{
 			"name": "web-dev-mastery",
 			"path": "."
+		},
+		{
+			"path": "rest-api"
 		}
 	],
 	"settings": {}
