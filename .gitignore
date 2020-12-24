@@ -201,5 +201,5 @@ modules.xml
 # Sonarlint plugin
 
 # End of https://www.gitignore.io/api/intellij,pycharm+all,jetbrains+all
-
+*/node_modules/
 node_modules/
