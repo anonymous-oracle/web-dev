@@ -9,7 +9,6 @@ const saltRounds = 10;
 
 const app = express();
 
-
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
@@ -74,7 +73,6 @@ app.post('/login', function(req, res){
         }
     })
 });
-
 
 
 
